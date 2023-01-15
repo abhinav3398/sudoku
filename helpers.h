@@ -18,7 +18,7 @@
 
 
 // wrapper for our game's globals
-struct
+typedef struct
 {
     // the current level
     char *level;
@@ -40,8 +40,8 @@ struct
 
     // keep record of the time
     time_t current, start;
-} g;
-
+} Game;
+extern Game g;
 
 // prototypes used in our game
 void draw_grid(void);

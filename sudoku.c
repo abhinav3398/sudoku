@@ -9,6 +9,8 @@
 #include "sudoku.h"
 #include "helpers.h"
 
+Game g;
+
 /*
  * Main driver for the game.
  */
